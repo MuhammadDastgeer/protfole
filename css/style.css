@@ -863,6 +863,7 @@ h3.my-profession {
     .contact-info-item {
         flex: 0 0 100%;
         max-width: 100%;
+        margin-bottom: 15px;
     }
 
     .about .about-content .education,
@@ -877,6 +878,9 @@ h3.my-profession {
 
 }
 
-/* #Skills {
-    margin-top: 500px;
-} */
+@media (max-width:450px) {
+    .contact-form .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
