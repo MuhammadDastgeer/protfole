@@ -739,7 +739,8 @@ h3.my-profession {
 }
 
 .contact-info-item .icon .fa,
-.contact-info-item .icon .fa-brands {
+.contact-info-item .icon .fa-brands,
+.contact-info-item .icon .fa-solid {
     font-size: 25px;
     color: var(--skin-color);
 }
