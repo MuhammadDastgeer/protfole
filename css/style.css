@@ -426,8 +426,8 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 40px;
 
 }
@@ -455,6 +455,7 @@ h3.my-profession {
 
 .about .about-content .personal-info .buttons {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .about .about-content .personal-info .buttons .btn {
@@ -463,9 +464,9 @@ h3.my-profession {
 }
 
 .about .about-content .skills {
-    flex: 0 0 40%;
-    max-width: 40%;
-    margin-top: 40px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* margin-top: 40px; */
 }
 
 .about .about-content .skills .skill-item h5 {
@@ -488,8 +489,8 @@ h3.my-profession {
 
 .about .about-content .skills .skill-item {
     margin-bottom: 25px;
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .about .about-content .skills .skill-item .progress .progress-in {
@@ -631,7 +632,9 @@ h3.my-profession {
     transition: all 0.3s ease;
 }
 
-.service .service-item .service-item-inner .icon .fa {
+.service .service-item .service-item-inner .icon .fa,
+.service .service-item .service-item-inner .icon .fab,
+.service .service-item .service-item-inner .icon .fa-brands {
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
@@ -641,13 +644,18 @@ h3.my-profession {
     border-radius: 100%;
 }
 
-.service .service-item .service-item-inner .icon :hover {
+.service .service-item .service-item-inner .icon:hover,
+.service .service-item .service-item-inner .icon .fa:hover,
+.service .service-item .service-item-inner .icon .fa-brands:hover {
     background-color: var(--skin-color);
 }
 
-.service .service-item .service-item-inner .icon .fa:hover {
+.service .service-item .service-item-inner .icon .fa:hover,
+.service .service-item .service-item-inner .icon .fab:hover,
+.service .service-item .service-item-inner .icon .fa-brands:hover {
     color: #ffff;
 }
+
 
 .service .service-item .service-item-inner h4 {
     font-size: 18px;
@@ -857,8 +865,8 @@ h3.my-profession {
 
     .about .about-content .education,
     .about .about-content .experience,
-    .about .about-content .skills,
-    .about .about-content .personal-info,
+    .about .about-content .skills .skill-item,
+    .about .about-content .personal-info .info-item,
     .portfolio .portfolio-item,
     .service .service-item {
         flex: 0 0 100%;
@@ -866,3 +874,7 @@ h3.my-profession {
     }
 
 }
+
+/* #Skills {
+    margin-top: 500px;
+} */
