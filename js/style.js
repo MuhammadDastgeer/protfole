@@ -55,7 +55,7 @@ window.addEventListener('load', () => {
 // Assuming you have a HTML element with the class "typing"
 
 var typed = new Typed(".typing", {
-    strings: ["Web Developer", "Web Designer", "UI/UX Designer"],
+    strings: ["Web Developer", "Full Stack Developer", "Front-End Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
