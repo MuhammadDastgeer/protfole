@@ -57,6 +57,6 @@ window.addEventListener('load', () => {
 var typed = new Typed(".typing", {
     strings: ["Web Developer", "Back-End Developer", "Front-End Developer"],
     typeSpeed: 150,
-    backSpeed: 60,
+    backSpeed: 80,
     loop: true
 });
