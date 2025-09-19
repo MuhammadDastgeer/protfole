@@ -53,10 +53,17 @@ window.addEventListener('load', () => {
 
 // typing
 // Assuming you have a HTML element with the class "typing"
-
 var typed = new Typed(".typing", {
-    strings: ["Full Stack Developer", "Back-End Developer", "Front-End Developer"],
+    strings: [
+        "Machine Learning Engineer",
+        "Deep Learning Engineer",
+        "NLP Engineer",
+        "Data Analyst",
+        "Generative AI Engineer",
+        "Agentic AI Developer"
+    ],
     typeSpeed: 150,
     backSpeed: 70,
     loop: true
 });
+
