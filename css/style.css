@@ -636,7 +636,9 @@ h3.my-profession {
 
 .service .service-item .service-item-inner .icon .fa,
 .service .service-item .service-item-inner .icon .fab,
-.service .service-item .service-item-inner .icon .fa-brands {
+.service .service-item .service-item-inner .icon .fa-brands,
+.service .service-item .service-item-inner .icon .fa-solid 
+{
     font-size: 40px;
     line-height: 60px;
     color: var(--skin-color);
@@ -648,13 +650,18 @@ h3.my-profession {
 
 .service .service-item .service-item-inner .icon:hover,
 .service .service-item .service-item-inner .icon .fa:hover,
-.service .service-item .service-item-inner .icon .fa-brands:hover {
+.service .service-item .service-item-inner .icon .fa-brands:hover,
+.service .service-item .service-item-inner .icon .fa-solid:hover
+{
     background-color: var(--skin-color);
 }
 
 .service .service-item .service-item-inner .icon .fa:hover,
 .service .service-item .service-item-inner .icon .fab:hover,
-.service .service-item .service-item-inner .icon .fa-brands:hover {
+.service .service-item .service-item-inner .icon .fa-brands:hover,
+.service .service-item .service-item-inner .icon .fa-solid:hover,
+
+{
     color: #ffff;
 }
 
